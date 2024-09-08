@@ -1,3 +1,4 @@
-hi 
-hello
-good afternoon
+resource "azurerm_resource_group" "rgs" {
+name = "rg-vasu"
+location = "centralindia"
+}
